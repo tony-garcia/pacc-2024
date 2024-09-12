@@ -30,4 +30,4 @@ def pipeline(lat: float = 38.9, lon: float = -77.0):
 
 
 if __name__ == "__main__":
-    pipeline.serve(name="report-weather", tags=["test"])
+    pipeline()
